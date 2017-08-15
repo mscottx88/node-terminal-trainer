@@ -1,0 +1,44 @@
+{
+  "name": "mock-training-package",
+  "title": "Mock Training Package",
+  "exercises": [
+    {
+      "name": "hello-world",
+      "title": "Hello World",
+      "style": {
+        "fg": "green"
+      },
+      "instructions": [
+        "Create a Hello World Node.js application.",
+        "",
+        "1. Create an index.js file",
+        "2. Using the console.log() function, print {white-fg}Hello World{/} to the console."
+      ],
+      "script": {
+        "tests": [
+          "./hello-world/hello-world.spec.js"
+        ],
+        "solution": "./hello-world/hello-world.js"
+      }
+    },
+    {
+      "name": "sum-numbers",
+      "title": "Sum Numbers",
+      "style": {
+        "fg": "green"
+      },
+      "instructions": [
+        "Sum It Up",
+        "",
+        "1. Create an index.js Node module which exports a function named {white-fg}sum{/}.",
+        "2. Your {white-fg}sum{/} function should accept an array of numbers, and return the sum."
+      ],
+      "script": {
+        "tests": [
+          "./sum-numbers/sum-numbers.spec.js"
+        ],
+        "solution": "./sum-numbers/sum-numbers.js"
+      }
+    }
+  ]
+}
