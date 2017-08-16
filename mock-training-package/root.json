@@ -12,7 +12,7 @@
         "Create a Hello World Node.js application.",
         "",
         "1. Create an index.js file",
-        "2. Using the console.log() function, print {white-fg}Hello World{/} to the console."
+        "2. Using the {blue-fg}console.log(){/} function, print {white-fg}Hello World{/} to the console."
       ],
       "script": {
         "tests": [
