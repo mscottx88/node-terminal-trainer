@@ -12,7 +12,7 @@
         "Create a Hello World Node.js application.",
         "",
         "1. Create an index.js file",
-        "2. Using the {blue-fg}console.log(){/} function, print {white-fg}Hello World{/} to the console."
+        "2. Using the {yellow-fg}{bold}console.log(){/} function, print {white-fg}Hello World{/} to the console."
       ],
       "script": {
         "tests": [
@@ -30,8 +30,20 @@
       "instructions": [
         "Sum It Up",
         "",
-        "1. Create an index.js Node module which exports a function named {white-fg}sum{/}.",
-        "2. Your {white-fg}sum{/} function should accept an array of numbers, and return the sum."
+        "1. Create an index.js Node module which exports a function named {yellow-fg}{bold}sum{/}.",
+        "2. Your {yellow-fg}{bold}sum{/} function should accept an array of numbers, and return the sum.",
+        "",
+        "To help you get started, your script should look like this:",
+        "",
+        "  {cyan-fg}function{/} {yellow-fg}sum{/}{white-fg}({/}numbers{white-fg}) {{/}",
+        "    {magenta-fg}// your logic goes here{/}",
+        "  {white-fg}}{/}",
+        "",
+        "  {cyan-fg}module.exports{/} {white-fg}= {{/}",
+        "    {yellow-fg}sum{/}",
+        "  {white-fg}};{/}",
+        "",
+        "How you implement the solution is up to you.  The exported function must be wrapped in an object, as shown above."
       ],
       "script": {
         "tests": [
