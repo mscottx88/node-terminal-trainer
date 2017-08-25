@@ -2,7 +2,23 @@
   "trainingPackages": {
     "C:\\Users\\michael-scott\\node-terminal-trainer\\mock-training-package\\root.json": {
       "name": "mock-training-package",
-      "title": "Mock Training Package"
+      "title": "Mock Training Package",
+      "exercises": [
+        {
+          "name": "hello-world",
+          "title": "Hello World",
+          "completed": false
+        },
+        {
+          "name": "sum-numbers",
+          "title": "Sum Numbers",
+          "completed": false
+        }
+      ]
     }
+  },
+  "currentTrainingPackage": {
+    "name": "C:\\Users\\michael-scott\\node-terminal-trainer\\mock-training-package\\root.json",
+    "currentExercise": 1
   }
 }
